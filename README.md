@@ -6,9 +6,9 @@
 
 安装后，在 WorkBuddy 对话中输入：
 
-- `拷打一下我的计划：……`：普通 `grill` 模式。可选择追问强度，以及是否记录决策。
-- `grill-with-docs：帮我想清楚这个方案：……`：追问结束后交付文档。
-- `拷打这个想法，最后整理成文档：……`：也会进入文档模式。
+- `/想清楚 帮我想清楚这个方案：……`：直接调用 Skill，分轮追问，结束后交付文档。
+- `拷打一下我的计划：……`：普通追问模式。可选择追问强度，以及是否记录决策。
+- `grill-with-docs：帮我想清楚这个方案：……`：同样进入文档模式。
 
 追问强度可选浅问、常规、细问、深挖、拷打，并可在过程中调整。
 
@@ -16,7 +16,7 @@
 
 ## 安装
 
-将仓库中的 `grill` 文件夹完整复制到 WorkBuddy 的用户技能目录 `~/.workbuddy/skills/`，使其包含 `~/.workbuddy/skills/grill/SKILL.md`。重新打开 WorkBuddy 对话后即可尝试调用。若 WorkBuddy 提供“上传 Skill”入口，也可将 `grill` 文件夹打包后导入。
+将仓库中的 `grill` 文件夹完整复制到 WorkBuddy 的用户技能目录 `~/.workbuddy/skills/`，使其包含 `~/.workbuddy/skills/grill/SKILL.md`。技能标识为“想清楚”，在对话输入 `/想清楚` 调用；如菜单尚未刷新，重新打开 WorkBuddy 对话。若 WorkBuddy 提供“上传 Skill”入口，也可将 `grill` 文件夹打包后导入。
 
 ## 来源与许可
 
